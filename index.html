@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initial scale = 1.0">
+	<title>Technical Documentation Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<nav id="navbar">
+		<header class="navhead">
+			<h2>Java Documentation Page</h2>
+		</header>	
+		<div class=navlinks>
+			<ul>
+				<li>
+					<a href="#Introduction" class="nav-link">Introduction</a>
+				</li>
+				<li>
+					<a href="#Basic_Features" class="nav-link">Basic Features</a>
+				</li>
+				<li>
+					<a href="#Comment_Entries" class="nav-link">Comment Entries</a>
+				</li>
+				<li>
+					<a href="#Tokens" class="nav-link">Tokens</a>
+				</li>
+				<li>
+					<a href="#Hello_World_Program" class="nav-link">Hello World Program</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<main id="main-doc">
+		<section class="main-section" id="Introduction">
+			<header>
+				<h2>Introduction</h2>
+			</header>
+			<article>
+				<p>
+					Java language was developed by <b><i>James A Gosling </i></b>in association with Sun Microsystem
+				</p>
+				<p>
+					Java language is widely accepted as desktop application development technology.
+				</p>
+				<p>
+					Java programming is used to develop Internet applets or java applets.
+					<br><br>
+					<i><b>
+						An applet is a program written in java programming language that can be included in an html page.
+					</b></i>
+					<br><br>
+					When we use a java technology enabled browser to view a page that contains an applet, the applets code is transfered to our system and executed by browser's interpreter.
+				</p>
+			</article>
+		</section>
+		<section class="main-section" id="Basic_Features">
+			<header>
+				<h2>Basic Features</h2>
+			</header>
+			<article>
+				<p>Some basic features of java are enlisted below:-</p>
+				<ol>
+					<li>
+						<p>It is an object oreinted programming language.</p>
+					</li>
+					<li>
+						<p>
+							Java programs are both compiled and interpreted.
+						</p>
+					</li>
+					<li>
+						<p>
+							Java programs are platform independent.
+						</p>
+					</li>
+					<li>
+						<p>
+							Java is a robust programming language.
+						</p>
+					</li>
+					<li>
+						<p>
+							It is a multithreaded language.
+						</p>
+					</li>
+					<li>
+						<p>
+							It can access data from a local system as well as from internet.
+						</p>
+					</li>
+					<li>
+						<p>
+							Java is a case sensetive language.
+						</p>
+					</li>
+					<li>
+						<p>
+							Java doesn't require any preprocessor(#) or inclusion of header files for creating a java application program.
+						</p>
+					</li>
+				</ol>
+			</article>
+		</section>
+		<section class="main-section" id="Comment_Entries">
+			<header>
+				<h2>Comment Entries</h2>
+			</header>
+			<article>
+				<h4>Comment Enteries</h4>
+				<p>
+					The enteries in a program which are only informative and are ignored by the compiler during compilation are called comment enteries.
+					<br>
+					<b>There are three types of comment enteries in Java:-</b>
+					<ul>
+						<li> Single Line Comment Enteries</li>
+						<li> Multiple line Comment Eneries</li>
+						<li> Documental Comment Entries</li>
+					</ul>
+				</p>
+				<p>
+					<h5>Single line comment entry</h5>
+					"//" is used as single line comment entries. It is used to add a single line comment in your java program.
+					<br>
+					<code>
+						//I am a single line comment
+					</code>
+					<h5> Multiple line comment entry</h5>
+					"/*.......<br>
+					.........*/" is used as multiple line connent entry. It is used to add a multi line comment to our program.
+					<br>
+					<code>
+						/*I am a multiline comment<br>
+						multiline<br>
+						multiline<br>
+						multiline*/
+					</code>
+					<h5>Documental Comment Entries</h5>
+					"/**.........<br>
+					..........*/" is used as documental comment entry.It is used to add a document as a comment.
+					<code>
+						/** i am a document<br>
+						lajfljsguprjklfjudgfdfj<br>
+						aldfkudiasdj<br>
+						dalsgjisdfutfdklgjreiyjgg;jfspdig*/
+					</code>
+				</p>
+				<h4>Escape Sequence</h4>
+				<p>
+					'\' is known as the escape sequence of java.It is used for:-
+					<ul>
+						<li>
+							<p>
+								To represent the non graphical characters inside a java program.
+							</p>
+							<ul>
+								<li>\n   - new line</li>
+								<li>\t   -  tab</li>
+								<li>\b   -  backslash</li>
+								<li>\r   -  carriage return</li>
+								<li>\'	 -  single quotes</li>
+								<li>\"   -  double quotes</li>
+							</ul>
+						</li>
+						<li>
+							<p>
+								To neglect the meaning of some java punctuators
+								<br>
+								example:- , ; "" ''etc.
+							</p>
+						</li>
+					</ul>
+				</p>
+			</article>
+		</section>
+		<section class="main-section" id="Tokens">
+			<header>
+				<h2>Tokens</h2>
+			</header>
+			<article>
+				<p>
+					The smalles meaningful unit of a java program is called a token.
+				</p>
+				<p>
+					<b>Tokens are of five tyoes:-</b>
+					<ol>
+						<li>keywords</li>
+						<li>identifiers</li>
+						<li>
+							literals
+							<ul>
+								<li>Integers</li>
+								<li>Real</li>
+								<li>Character</li>
+								<li>String</li>
+								<li>Boolean</li>
+								<li>Null</li>
+							</ul>
+						</li>
+						<li>Operators</li>
+						<li>Punctuators</li>
+					</ol>		
+				</p>
+				<p>
+					<h4>Keywords</h4>
+					These are java reserve words which convey some special meaning to the java compiler.
+					Example:- if, else, for, break, etc.
+				</p>
+				<p>
+					<h4>Identifiers</h4>
+					Identifiers are the usere defined names to identify the different elements of a java program.
+					Example:- class_name, variable_name, method_name, etc.
+					<p>
+						Rules of writting identifiers:
+						<ol>
+							<li>Identifier should be unique in a program.</li>
+							<li>They should not start with a digit.</li>
+							<li>Upper case and lower case are treated differently.</li>
+							<li>Keywords are not used as identifiers.</li>
+							<li>Identifers can use all the alphabets(A-Z & a-z) and digits (0-9) and two special characters'_'(underscore) and '$'(dollar).</li>
+						</ol>
+					</p>
+				</p>
+				<p>
+					<h4>Literals</h4>
+					The fixed values or constants used in a program is called literals.
+					<br>
+					<b>There are six types of literals.</b>
+					<ol>
+						<li>
+							<h5>Integer</h5>
+							<p>
+								The literals with no fraction part in them are called Integer literal.They can be both positive and negative.
+							</p>
+						</li>
+						<li>
+							<h5>Real</h5>
+							<p>The number with any fraction part in them are called integer literal. They can be both positive and negative.</p>
+						</li>
+						<li>
+							<h5>Boolean</h5>
+							<p>The two reserve words of java 'true' and 'false' are called boolean literal.The words 'true' and 'false' are always written in small.</p>
+						</li>
+						<li>
+							<h5>Character</h5>
+							<p>Zero or one characters inclosed within single quotes '' are called as character literal.</p>
+						</li>
+						<li>
+							<h5>String</h5>
+							<p>
+								Zero or more characters inclosed within double quotes "" are called as String literal.
+							</p>
+						</li>
+						<li>
+							<h5>Null</h5>
+							<p>
+								The java reserve word 'null' which is used to create an empty space is called a null literal.'\0'
+							</p>
+						</li>
+					</ol>
+				</p>
+				<p>
+					<h4>Operators</h4>
+					The operators are the special symbols used in a java program to perform some action with the given value.
+				</p>
+				<p>
+					<h4>Punctuators</h4>
+					These are the special symbols used in a java program to seperate the different parts of a program.
+				</p>
+			</article>
+		</section>
+		<section class="main-section" id="Hello_World_Program">
+				<header>
+					<h2>Hello World Program</h2>
+				</header>
+				<article>
+					<p>
+						In java we use 'System.out.println()' function and 'System.out.print()'function to print an element in a java program.
+						<br>
+						<b>
+							"Hello World program in java using 'System.out.println()' "
+						</b>
+					</p>
+					<code>
+						class HelloWorld<br>
+						{<br>
+							public static void main(String args[])<br>
+							{<br>
+								System.out.println("Hello World");<br>
+							}<br>
+						}<br>
+					</code>
+					<b>
+						"Hello World program in java using 'System.out.print()' "
+					</b><br>
+					<code>
+						class HelloWorld<br>
+						{<br>
+							public static void main(String args[])<br>
+							{<br>
+								System.out.print("Hello World");<br>
+							}<br>
+						}<br>
+					</code>
+				</article>
+		</section>
+	</main>
+	</body>
+	</html>
